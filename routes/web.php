@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+use App\Http\Controllers\LoanController;
+
+Route::get('/', [LoanController::class, 'index'])->name('loan.form');
+Route::get('/show/{loanDetail}', [LoanController::class, 'show'])->name('loan.show');
+Route::post('/calculate', [LoanController::class, 'calculate'])->name('loan.calculate');
