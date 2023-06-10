@@ -1,4 +1,3 @@
-Sure! Here's an example README file for a Laravel project using Sail:
 
 ---
 
