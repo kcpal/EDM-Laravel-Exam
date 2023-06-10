@@ -7,7 +7,7 @@ This is a Laravel project built using Sail. So, you need to have Docker installe
 
 ## Description
 
-This project is a [brief description of your project].
+This project is a demo based on the questions asked by EDM.
 
 ## Table of Contents
 
